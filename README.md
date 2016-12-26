@@ -8,9 +8,9 @@ Only binary classification is supported in this version.
 1. You need some articles data to train and classify to be stored at `data` directory.
 Classifier assumes that you have 3 subdirectories:
 ```
-data/class_train_data/<class_name>/<article>.txt    # ML algorithm training data
-data/class_test_data/<class_name>/<article>.txt     # Classified test data
-data/class_all_data/<class_name>/<article>.txt      # All available articles data for classifier cross-validation
+data/classifier_train_data/<class_name>/<article>.txt   # ML algorithm training data
+data/classifier_test_data/<class_name>/<article>.txt    # Classified test data
+data/classifier_x_val_data/<class_name>/<article>.txt   # All available articles data for classifier cross-validation
 ```
 
 2. Install NumPy and SciPy. It's highly recommended by NumPy authors to install binaries system-wide.

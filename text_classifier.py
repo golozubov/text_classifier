@@ -9,9 +9,9 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import roc_auc_score
 
 
-train_data_folder = 'data/class_train_data/'
-test_data_folder = 'data/class_test_data/'
-all_data_folder = 'data/class_all_data/'
+train_data_folder = 'data/classifier_train_data/'
+test_data_folder = 'data/classifier_test_data/'
+all_data_folder = 'data/classifier_x_val_data/'
 
 
 train_data = load_files(train_data_folder, shuffle=True, random_state=42)
